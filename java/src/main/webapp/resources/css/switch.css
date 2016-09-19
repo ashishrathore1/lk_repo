@@ -1,0 +1,140 @@
+
+.progress-box {
+    width: 50%;
+    margin: 20px 0;
+}
+
+.progress-box .percentage-cur .num {
+    margin-right: 5px;
+}
+
+.progress-box .progress-bar {
+    width: 100%;
+    height: 12px;
+    background: #f2f1f1;
+    margin-bottom: 3px;
+    border: 1px solid #dfdfdf;
+    box-shadow: 0 0 2px #D5D4D4 inset;
+  position: relative;
+}
+
+.progress-box .progress-bar .inner {
+  position: relative;
+    width: 0;
+    height:100%;
+    background: #00568D;
+}
+
+.progress-bar .inner {
+    height: 0;
+    width: 0;
+    transition: all 1s ease-out;
+}
+
+.progress-bar-slider .inner {
+  transition: none;
+}
+
+.progress-bar-slider .inner:after {
+  content: " ";
+  width: 5px;
+  height: 14px;;
+  background-color:#ccc;
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
+  margin: 0px;
+}
+
+.progress-slider {
+  opacity: 0;
+  width: 100%;
+  height: 15px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+  z-index: 1;
+}
+label
+{
+    padding-top: 3px;
+}
+
+.toggle-switch {
+  border: 1px solid #A7BDCF;
+cursor: pointer;
+display: inline-block;
+text-align: left;
+overflow: hidden;
+line-height: 1px;
+min-width: 80px;
+height: 28px;
+}
+
+.toggle-switch.disabled > div > span.knob {
+    background: #AAA;
+}
+
+.toggle-switch span {
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 100%;
+    line-height: 20px;
+    padding: 4px;
+    text-align: center;
+    width: 33%;
+    white-space: nowrap;
+
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.toggle-switch > div {
+    position: relative;
+    width: 150%;
+}
+
+.toggle-switch .knob {
+    /*background: red;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #f5f5f5;*/
+    width: 34%;
+    z-index: 100;
+}
+
+.toggle-switch .switch-on {
+    left: 0%;
+}
+
+.toggle-switch .switch-off {
+    left: -50%
+}
+
+.toggle-switch .switch-left, .toggle-switch .switch-right {
+    z-index: 1;
+}
+
+.toggle-switch .switch-left {
+   color: #fff;
+  background: #1757B8;
+}
+
+.toggle-switch .switch-right {
+    color: #333;
+    background: #f0f0f0;
+}
+
+.toggle-switch-animate {
+    transition: left 0.5s;
+    -o-transition: left 0.5s;
+    -moz-transition: left 0.5s;
+    -webkit-transition: left 0.5s;
+}

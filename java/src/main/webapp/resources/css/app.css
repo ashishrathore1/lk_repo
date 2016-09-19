@@ -1,0 +1,106 @@
+.tab{
+	    margin-top: 8em;
+}
+body {
+  padding : 10px ;
+  
+}
+
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : black;
+  background-color:#DEE1E4;
+  padding : 5px 15px;
+}
+nav a 
+       {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  font-size: 18px;
+}
+.navbar-inverse {
+  background-color: #fff;
+  border-color: #fff;
+}
+.panel {
+    height: 100%;
+    width: 100%;
+  }
+  .panel.green {
+    margin-bottom: 400px
+  }
+nav .navbar-toggle {
+  margin: 13px 15px 13px 0;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+.login{
+      border: 1px solid #0D5392 !important;
+    background: #105594!important;
+    border-radius: 3% !important;
+}
+
+.register{
+border: 1px solid #F48520 !important;
+    background: #F48520 !important;
+    border-radius: 3% !important;
+    margin-left: 1px!important;
+
+
+}
+
+
+.navbar-default {
+border-bottom-width: 2px !important;
+    height: 15% !important;
+    border-color: #f48622 !important;
+    box-shadow: 1px 1px 1px 1px rgba(223,211,200,.31) !important;
+}
+
+
+nav.navbar.shrink {
+  min-height: 35px;
+}
+
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+}
+
+nav.shrink .navbar-brand {
+  font-size: 20px;
+}
+.btn-block + .btn-block {
+  margin-top: -77px;
+}
+.log12{
+    background: url(../img/loginlogo.png);
+    height: 33px;
+    width: 33px;
+  }

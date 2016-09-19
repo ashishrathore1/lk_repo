@@ -1,0 +1,210 @@
+.tabsdemoDynamicHeight md-content {
+  background-color: transparent !important; }
+  .tabsdemoDynamicHeight md-content md-tabs {
+    background: #f6f6f6;
+    border: 1px solid #e1e1e1; }
+    .tabsdemoDynamicHeight md-content md-tabs md-tabs-wrapper {
+      background: white; }
+  .tabsdemoDynamicHeight md-content h1:first-child {
+    margin-top: 0; }
+.md-radio-button {
+  display: inline;
+}
+/*Bottom Sheet*/
+.bottomSheetdemoBasicUsage .md-inline-list-icon-label {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -10px;
+  height: 24px;
+  vertical-align: middle; }
+.bottomSheetdemoBasicUsage .md-grid-item-content {
+  height: 96px; }
+.bottomSheetdemoBasicUsage .md-grid-item-content md-icon {
+  height: 48px;
+  width: 48px; }
+.bottomSheetdemoBasicUsage .md-grid-text {
+  padding-bottom: 5px; }
+  
+  .heading{
+        color: #3F51B5;
+  }
+
+  .buttondemoBasicUsage section {
+  
+  border-radius: 3px;
+  text-align: center;
+  margin: 1em;
+  position: relative !important;
+  padding-bottom: 10px; }
+.buttondemoBasicUsage md-content {
+  margin-right: 7px; }
+.buttondemoBasicUsage section .md-button {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 130px; 
+}
+.inputdemoBasicUsage .md-button{
+      margin-top: 16px;
+    margin-bottom: 16px;
+    /*width: 168px;*/
+    width: 100px;
+    font-size: 12px;
+    text-transform: none;
+}
+.buttondemoBasicUsage section .md-button.active{
+    color: #333;
+    background-color: #3F51B5;;
+    /*border-color: #46b8da;*/
+}
+.btnclass{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 130px; 
+  height: 39px;
+  margin: 10px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 0px #eaeaea;
+}
+button.active{
+  color: #333;
+    background-color: #3F51B5;
+   
+}
+.depend{
+  margin-top: 14px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(23, 87, 184);
+}
+.md-button{
+ margin-top: 8px;
+    margin-bottom: 8px;
+ /* width: 130px;*/
+}
+/*.md-button:hover{
+  color: #333;
+    background-color: #3F51B5;
+    border-color: #46b8da;
+}*/
+.buttondemoBasicUsage .label {
+  position: absolute;
+  bottom: 5px;
+  left: 7px;
+  font-size: 14px;
+  opacity: 0.54; }
+
+  .md-checkbox {
+  float: left; }
+.sliderdemoBasicUsage input[type="number"] {
+  text-align: center; }
+  .md-focus-ring {
+    background-color: rgb(161, 174, 245) !important;
+  }
+  .center-block {  
+  display: block;  
+  margin-right: auto;  
+  margin-left: auto;  
+}  
+
+  .parallaxParentfooter {
+      margin-top: 30px;
+  height: auto;
+  overflow: hidden;
+  /* background: url(img/group_photo.png) no-repeat; */
+  background: url(../img/contact_us_background.jpg) no-repeat;
+  /* background-color: yellow; */
+}
+.icon1{
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+.icon-circle{
+  background-color: #7B7B7B;
+    padding: 0px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    float: left;
+    height: 24px;
+    font-weight: 900;
+    width: 25px;
+    text-align: -webkit-center;
+    margin-left: 1%;
+}
+.promo-caption {
+    padding-left: 60px;
+    /*padding-top: 3px;*/
+}
+.promo-box {
+   margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -5%;
+}
+.h2cls {
+   font-size: 18px;
+    color: #1757b8;
+    margin-bottom: 20px;
+    line-height: 2px;
+    font-weight: 500;
+    margin-left:2px;
+}
+.datepickerdemoBasicUsage {
+  /** Demo styles for mdCalendar. */ }
+  .datepickerdemoBasicUsage md-content {
+    padding-bottom: 200px; }
+    
+    
+    
+ /* For file upload   */
+ .left {
+float: left;
+}
+.both {
+clear: both;
+}
+.file-upload-container {
+width:400px;
+border: 1px solid #efefef;
+padding:10px;
+border-radius: 6px;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+background: #fbfbfa;
+}
+.file-upload-override-button {
+	position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #00568D;
+    width: 156px;
+    height: 36px;
+    border-radius: 4px;
+    color: white;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+}
+.file-upload-override-button:hover {
+background-color:#378de5;
+}
+.file-upload-override-button:active {
+position:relative; top:1px;
+}
+.file-upload-button {
+position: absolute;
+height: 50px;
+top: -10px;
+left: -10px;
+cursor: pointer;
+opacity: 0;
+filter:alpha(opacity=0);
+}
+.file-upload-filename {
+margin-left: 10px;
+height: auto;
+padding: 8px;
+}
+ 
